@@ -56,6 +56,32 @@ D --> E[Answer]
 
 The baseline deliberately uses deterministic routing. This makes it possible to explain the next step—Text-to-SQL—without pretending that unrestricted LLM-generated SQL is automatically safe.
 
+## Actual dashboard results
+
+These charts are calculated from the repository's 1,800-row synthetic sales dataset (fixed seed = 7).
+
+### Revenue by product
+
+```mermaid
+xychart-beta
+    title "Revenue by product"
+    x-axis ["Laptop","Monitor","Headset","Keyboard"]
+    y-axis "Revenue" 0 --> 1700000
+    bar [1586642,481869,189625,129852]
+```
+
+### Monthly revenue trend
+
+```mermaid
+xychart-beta
+    title "Monthly revenue trend"
+    x-axis ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
+    y-axis "Revenue" 0 --> 260000
+    line [165847,206169,204786,189326,172859,247685,213314,234632,179427,219395,151109,203440]
+```
+
+The same governed definitions—Revenue, Cost and Gross Profit—are used by the Streamlit dashboard.
+
 ## Quick start
 ```bash
 python -m venv .venv
