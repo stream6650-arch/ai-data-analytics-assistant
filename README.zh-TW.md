@@ -52,7 +52,7 @@ python src/generate_sales.py
 streamlit run app.py
 ```
 
-## 教學延伸路線
+## 學習延伸路線
 Deterministic Routing → Semantic Layer → DuckDB → Text-to-SQL → SQL Validation → Execution → Audit
 
 ## 資料安全
