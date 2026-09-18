@@ -1,5 +1,7 @@
 # AI Data Analytics Assistant
 
+**English** | [繁體中文](README.zh-TW.md)
+
 > A business-facing data + AI teaching demo: turn a natural-language question into governed analytics.  
 > **Synthetic data · No API key · No database credential**
 
