@@ -90,10 +90,10 @@ python src/generate_sales.py
 streamlit run app.py
 ```
 
-## Teaching roadmap
+## Learning roadmap
 Deterministic routing → semantic layer → DuckDB → Text-to-SQL → SQL validation → execution → audit
 
-## Topics I can teach
+## Topics we can discuss
 KPI design · dimensions and metrics · pandas aggregation · visualization · semantic layer · natural-language analytics · Text-to-SQL concepts · AI guardrails
 
 ## Privacy & security
