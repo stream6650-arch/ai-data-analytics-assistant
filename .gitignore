@@ -9,3 +9,7 @@ credentials*
 .DS_Store
 .idea/
 .vscode/
+
+data/
+.streamlit/secrets.toml
+.pytest_cache/
